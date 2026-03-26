@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TempoSwap — The DEX Built for Tempo Network</title>
-  <meta name="description" content="Trade, earn yield up to 15% APY, and collect TEMPO Points on TempoSwap — the native decentralized exchange on Tempo Network. Points convert to tokens at TGE." />
-  <meta property="og:title" content="TempoSwap — The DEX Built for Tempo Network" />
+  <title>TempoSwap â€” The DEX Built for Tempo Network</title>
+  <meta name="description" content="Trade, earn yield up to 15% APY, and collect TSWAP Points on TempoSwap â€” the native decentralized exchange on Tempo Network. Points convert to tokens at TGE." />
+  <meta property="og:title" content="TempoSwap â€” The DEX Built for Tempo Network" />
   <meta property="og:description" content="Swap, earn, and build your position before mainnet." />
   <meta property="og:url" content="https://temposwap.vercel.app" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,12 +29,12 @@
     html { scroll-behavior: smooth; }
     body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
 
-    /* ── Scrollbar ── */
+    /* â”€â”€ Scrollbar â”€â”€ */
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 3px; }
 
-    /* ── Nav ── */
+    /* â”€â”€ Nav â”€â”€ */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
@@ -68,7 +68,7 @@
     .mobile-menu a { color: var(--text); text-decoration: none; font-size: 22px; font-weight: 700; }
     .mobile-close { position: absolute; top: 20px; right: 24px; background: none; border: none; color: var(--text); font-size: 28px; cursor: pointer; }
 
-    /* ── Hero ── */
+    /* â”€â”€ Hero â”€â”€ */
     .hero {
       min-height: 100vh;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -113,7 +113,7 @@
     .hero-scroll { margin-top: 60px; color: var(--muted); font-size: 13px; display: flex; flex-direction: column; align-items: center; gap: 8px; animation: fadeUp 0.6s 0.5s ease-out both; }
     .hero-scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--purple), transparent); animation: scrollLine 2s ease-in-out infinite; }
 
-    /* ── Stats ── */
+    /* â”€â”€ Stats â”€â”€ */
     .stats { padding: 0 24px; position: relative; }
     .stats-inner {
       max-width: 900px; margin: 0 auto;
@@ -127,14 +127,14 @@
     .stat-value { font-size: 32px; font-weight: 800; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .stat-label { font-size: 13px; color: var(--muted); margin-top: 6px; font-weight: 500; }
 
-    /* ── Section Base ── */
+    /* â”€â”€ Section Base â”€â”€ */
     section { padding: 100px 24px; }
     .section-tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--purple); margin-bottom: 16px; }
     .section-title { font-size: clamp(28px, 4vw, 48px); font-weight: 800; letter-spacing: -1.5px; line-height: 1.1; margin-bottom: 16px; }
     .section-sub { font-size: 17px; color: var(--dim); max-width: 560px; line-height: 1.7; }
     .container { max-width: 1100px; margin: 0 auto; }
 
-    /* ── Features ── */
+    /* â”€â”€ Features â”€â”€ */
     .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 56px; }
     .feat-card {
       background: var(--card); border: 1px solid var(--border);
@@ -150,7 +150,7 @@
     .feat-card p { font-size: 14px; color: var(--dim); line-height: 1.7; }
     .feat-badge { display: inline-block; margin-top: 16px; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 6px; background: rgba(124,58,237,0.15); color: #a78bfa; }
 
-    /* ── How it Works ── */
+    /* â”€â”€ How it Works â”€â”€ */
     .how { background: var(--bg2); }
     .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 56px; position: relative; }
     .steps::before { content: ''; position: absolute; top: 28px; left: calc(16% + 28px); right: calc(16% + 28px); height: 2px; background: linear-gradient(90deg, var(--purple), var(--pink)); }
@@ -165,7 +165,7 @@
     .step h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
     .step p { font-size: 14px; color: var(--dim); line-height: 1.7; }
 
-    /* ── Points ── */
+    /* â”€â”€ Points â”€â”€ */
     .points-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-top: 56px; }
     .points-table { border-radius: 16px; overflow: hidden; border: 1px solid var(--border); }
     .pt-row { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--bg2); transition: background 0.2s; }
@@ -181,7 +181,7 @@
       font-size: 14px; color: #c4b5fd; line-height: 1.7;
     }
 
-    /* ── Roadmap ── */
+    /* â”€â”€ Roadmap â”€â”€ */
     .roadmap { background: var(--bg2); }
     .timeline { display: flex; flex-direction: column; gap: 0; margin-top: 56px; max-width: 700px; }
     .tl-item { display: flex; gap: 24px; padding-bottom: 48px; position: relative; }
@@ -201,7 +201,7 @@
     .tl-tag { font-size: 12px; padding: 4px 10px; border-radius: 6px; background: var(--card); border: 1px solid var(--border); color: var(--dim); }
     .tl-tag.done { background: rgba(34,197,94,0.1); border-color: rgba(34,197,94,0.3); color: #86efac; }
 
-    /* ── Tokenomics ── */
+    /* â”€â”€ Tokenomics â”€â”€ */
     .tknm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-top: 56px; }
     .tknm-chart { position: relative; width: 260px; height: 260px; margin: 0 auto; }
     .tknm-chart svg { width: 100%; height: 100%; }
@@ -211,14 +211,14 @@
     .tknm-label { font-size: 14px; color: var(--dim); flex: 1; }
     .tknm-pct { font-size: 15px; font-weight: 700; }
 
-    /* ── Security ── */
+    /* â”€â”€ Security â”€â”€ */
     .security-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px; }
     .sec-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px; }
     .sec-icon { font-size: 32px; margin-bottom: 16px; }
     .sec-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
     .sec-card p { font-size: 13px; color: var(--dim); line-height: 1.7; }
 
-    /* ── FAQ ── */
+    /* â”€â”€ FAQ â”€â”€ */
     .faq-list { max-width: 720px; margin: 56px auto 0; display: flex; flex-direction: column; gap: 12px; }
     .faq-item { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
     .faq-q { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; cursor: pointer; font-size: 15px; font-weight: 600; gap: 16px; user-select: none; }
@@ -228,12 +228,12 @@
     .faq-item.open .faq-a { max-height: 200px; }
     .faq-a-inner { padding: 0 24px 20px; font-size: 14px; color: var(--dim); line-height: 1.8; border-top: 1px solid var(--border); padding-top: 16px; }
 
-    /* ── CTA ── */
+    /* â”€â”€ CTA â”€â”€ */
     .cta-section { text-align: center; padding: 100px 24px; background: radial-gradient(ellipse at center, rgba(124,58,237,0.15) 0%, transparent 70%); }
     .cta-section h2 { font-size: clamp(28px, 5vw, 56px); font-weight: 900; letter-spacing: -2px; margin-bottom: 20px; }
     .cta-section p { font-size: 18px; color: var(--dim); max-width: 500px; margin: 0 auto 40px; line-height: 1.7; }
 
-    /* ── Footer ── */
+    /* â”€â”€ Footer â”€â”€ */
     footer { background: var(--bg2); border-top: 1px solid var(--border); padding: 60px 24px 32px; }
     .footer-inner { max-width: 1100px; margin: 0 auto; }
     .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
@@ -247,17 +247,17 @@
     .social-btn { width: 36px; height: 36px; border-radius: 8px; background: var(--card); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 16px; transition: all 0.2s; color: var(--dim); }
     .social-btn:hover { border-color: var(--purple); background: rgba(124,58,237,0.15); color: var(--text); }
 
-    /* ── Reveal Animation ── */
+    /* â”€â”€ Reveal Animation â”€â”€ */
     .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
-    /* ── Keyframes ── */
+    /* â”€â”€ Keyframes â”€â”€ */
     @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
     @keyframes scrollLine { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
     @keyframes pulseBorder { 0%,100% { box-shadow: 0 0 0 0 rgba(124,58,237,0.4); } 50% { box-shadow: 0 0 0 8px rgba(124,58,237,0); } }
 
-    /* ── Responsive ── */
+    /* â”€â”€ Responsive â”€â”€ */
     @media (max-width: 900px) {
       nav { padding: 14px 20px; }
       .nav-links, .nav-cta { display: none; }
@@ -279,9 +279,9 @@
 </head>
 <body>
 
-<!-- ── MOBILE MENU ── -->
+<!-- â”€â”€ MOBILE MENU â”€â”€ -->
 <div class="mobile-menu" id="mobileMenu">
-  <button class="mobile-close" onclick="closeMobile()">✕</button>
+  <button class="mobile-close" onclick="closeMobile()">âœ•</button>
   <a href="#features" onclick="closeMobile()">Features</a>
   <a href="#points" onclick="closeMobile()">Points</a>
   <a href="#roadmap" onclick="closeMobile()">Roadmap</a>
@@ -289,7 +289,7 @@
   <a href="https://tempo-dex.vercel.app" class="btn-primary" style="font-size:18px;padding:14px 32px;">Launch App</a>
 </div>
 
-<!-- ── NAV ── -->
+<!-- â”€â”€ NAV â”€â”€ -->
 <nav id="navbar">
   <a href="#" class="nav-logo">
     <div class="nav-logo-mark">T</div>
@@ -302,22 +302,22 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
-  <a href="https://tempo-dex.vercel.app" class="nav-cta">Launch App →</a>
+  <a href="https://tempo-dex.vercel.app" class="nav-cta">Launch App â†’</a>
   <button class="hamburger" onclick="openMobile()" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
 </nav>
 
-<!-- ── HERO ── -->
+<!-- â”€â”€ HERO â”€â”€ -->
 <section class="hero" id="home">
   <div class="hero-grid"></div>
   <div class="hero-orb hero-orb1"></div>
   <div class="hero-orb hero-orb2"></div>
   <div class="hero-badge"><span class="badge-dot"></span> Now Live on Testnet</div>
   <h1>The DEX Built for<br /><span class="grad">Tempo Network</span></h1>
-  <p>Swap tokens, place limit orders, earn up to 15% APY, and collect TEMPO Points — all on the fastest stablecoin network in crypto.</p>
+  <p>Swap tokens, place limit orders, earn up to 15% APY, and collect TSWAP Points â€” all on the fastest stablecoin network in crypto.</p>
   <div class="hero-btns">
-    <a href="https://tempo-dex.vercel.app" class="btn-primary">Launch App →</a>
+    <a href="https://tempo-dex.vercel.app" class="btn-primary">Launch App â†’</a>
     <a href="#features" class="btn-ghost">Explore Features</a>
   </div>
   <div class="hero-scroll">
@@ -326,11 +326,11 @@
   </div>
 </section>
 
-<!-- ── STATS ── -->
+<!-- â”€â”€ STATS â”€â”€ -->
 <div class="stats reveal">
   <div class="stats-inner">
     <div class="stat-item">
-      <div class="stat-value" id="statUsers">—</div>
+      <div class="stat-value" id="statUsers">â€”</div>
       <div class="stat-label">Early Users</div>
     </div>
     <div class="stat-item">
@@ -348,56 +348,56 @@
   </div>
 </div>
 
-<!-- ── FEATURES ── -->
+<!-- â”€â”€ FEATURES â”€â”€ -->
 <section id="features">
   <div class="container">
     <div class="reveal">
       <div class="section-tag">Core Features</div>
       <h2 class="section-title">Everything you need to trade on Tempo</h2>
-      <p class="section-sub">TempoSwap is a full-featured DEX — not just a swap interface. Built for the Tempo Network orderbook.</p>
+      <p class="section-sub">TempoSwap is a full-featured DEX â€” not just a swap interface. Built for the Tempo Network orderbook.</p>
     </div>
     <div class="features-grid">
       <div class="feat-card reveal">
-        <span class="feat-icon">⚡</span>
+        <span class="feat-icon">âš¡</span>
         <h3>Instant Swaps</h3>
-        <p>Swap any stablecoin pair on Tempo Network in one click. Best price from the on-chain orderbook — no middlemen.</p>
+        <p>Swap any stablecoin pair on Tempo Network in one click. Best price from the on-chain orderbook â€” no middlemen.</p>
         <span class="feat-badge">0.1% fee</span>
       </div>
       <div class="feat-card reveal">
-        <span class="feat-icon">📋</span>
+        <span class="feat-icon">ðŸ“‹</span>
         <h3>Limit Orders</h3>
         <p>Set your price, place your order, and let the market come to you. Full limit order support on the Tempo Exchange.</p>
-        <span class="feat-badge">+15 TEMPO pts</span>
+        <span class="feat-badge">+15 TSWAP pts</span>
       </div>
       <div class="feat-card reveal">
-        <span class="feat-icon">🏦</span>
+        <span class="feat-icon">ðŸ¦</span>
         <h3>Earn Yield</h3>
-        <p>Deposit tokens and earn up to 15% APY with flexible or fixed-term lock periods — from 3 months to 12 months.</p>
+        <p>Deposit tokens and earn up to 15% APY with flexible or fixed-term lock periods â€” from 3 months to 12 months.</p>
         <span class="feat-badge">Up to 15% APY</span>
       </div>
       <div class="feat-card reveal">
-        <span class="feat-icon">🏆</span>
-        <h3>TEMPO Points</h3>
-        <p>Every on-chain action earns TEMPO Points — your share of the future token allocation. Points never expire.</p>
+        <span class="feat-icon">ðŸ†</span>
+        <h3>TSWAP Points</h3>
+        <p>Every on-chain action earns TSWAP Points â€” your share of the future token allocation. Points never expire.</p>
         <span class="feat-badge">Converts at TGE</span>
       </div>
       <div class="feat-card reveal">
-        <span class="feat-icon">🔗</span>
+        <span class="feat-icon">ðŸ”—</span>
         <h3>Referral System</h3>
         <p>Share your referral link and earn bonus points when friends join, verify their Twitter, and complete transactions.</p>
         <span class="feat-badge">Anti-sybil</span>
       </div>
       <div class="feat-card reveal">
-        <span class="feat-icon">𝕏</span>
+        <span class="feat-icon">ð•</span>
         <h3>Twitter Verified</h3>
-        <p>Connect your Twitter account via OAuth to unlock referral rewards and earn an additional +30 TEMPO Points.</p>
+        <p>Connect your Twitter account via OAuth to unlock referral rewards and earn an additional +30 TSWAP Points.</p>
         <span class="feat-badge">+30 pts</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── HOW IT WORKS ── -->
+<!-- â”€â”€ HOW IT WORKS â”€â”€ -->
 <section id="how" class="how">
   <div class="container">
     <div class="reveal" style="text-align:center">
@@ -413,7 +413,7 @@
       <div class="step">
         <div class="step-num">2</div>
         <h3>Trade & Earn</h3>
-        <p>Swap tokens, place limit orders, or deposit into earn pools. Every action earns TEMPO Points automatically.</p>
+        <p>Swap tokens, place limit orders, or deposit into earn pools. Every action earns TSWAP Points automatically.</p>
       </div>
       <div class="step">
         <div class="step-num">3</div>
@@ -424,28 +424,28 @@
   </div>
 </section>
 
-<!-- ── POINTS ── -->
+<!-- â”€â”€ POINTS â”€â”€ -->
 <section id="points">
   <div class="container">
     <div class="reveal">
       <div class="section-tag">Rewards</div>
-      <h2 class="section-title">TEMPO Points System</h2>
-      <p class="section-sub">Every interaction with TempoSwap earns TEMPO Points. Early users get the most tokens.</p>
+      <h2 class="section-title">TSWAP Points System</h2>
+      <p class="section-sub">Every interaction with TempoSwap earns TSWAP Points. Early users get the most tokens.</p>
     </div>
     <div class="points-wrap reveal">
       <div class="points-table">
-        <div class="pt-row"><span class="pt-action">💼 Wallet Connect (first time)</span><span class="pt-pts">+50 pts</span></div>
-        <div class="pt-row"><span class="pt-action">⚡ Complete a Swap</span><span class="pt-pts">+10 pts</span></div>
-        <div class="pt-row"><span class="pt-action">📋 Place a Limit Order</span><span class="pt-pts">+15 pts</span></div>
-        <div class="pt-row"><span class="pt-action">🏦 Deposit into Earn</span><span class="pt-pts">+20 pts</span></div>
-        <div class="pt-row"><span class="pt-action">𝕏 Connect Twitter (OAuth)</span><span class="pt-pts">+30 pts</span></div>
-        <div class="pt-row"><span class="pt-action">📅 Daily Login Bonus</span><span class="pt-pts">+5 pts</span></div>
-        <div class="pt-row"><span class="pt-action">🔗 Referral Signup Bonus</span><span class="pt-pts">+25 pts</span></div>
-        <div class="pt-row"><span class="pt-action">👥 Referral Reward (per user)</span><span class="pt-pts">+50 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ’¼ Wallet Connect (first time)</span><span class="pt-pts">+50 pts</span></div>
+        <div class="pt-row"><span class="pt-action">âš¡ Complete a Swap</span><span class="pt-pts">+10 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ“‹ Place a Limit Order</span><span class="pt-pts">+15 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ¦ Deposit into Earn</span><span class="pt-pts">+20 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ð• Connect Twitter (OAuth)</span><span class="pt-pts">+30 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ“… Daily Login Bonus</span><span class="pt-pts">+5 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ”— Referral Signup Bonus</span><span class="pt-pts">+25 pts</span></div>
+        <div class="pt-row"><span class="pt-action">ðŸ‘¥ Referral Reward (per user)</span><span class="pt-pts">+50 pts</span></div>
       </div>
       <div class="points-info">
         <h3>Your points, your tokens.</h3>
-        <p>TEMPO Points are stored permanently in our database, linked to your wallet address. When TempoSwap launches its token at TGE, a snapshot will be taken and every point will be worth a proportional share of the community allocation.</p>
+        <p>TSWAP Points are stored permanently in our database, linked to your wallet address. When TempoSwap launches its token at TGE, a snapshot will be taken and every point will be worth a proportional share of the community allocation.</p>
         <div class="points-callout">
           <strong style="color:#a78bfa">Anti-sybil protection:</strong> Referral points only unlock after you verify your Twitter account via OAuth and complete at least one real on-chain transaction. No farming. No fake accounts.
         </div>
@@ -454,7 +454,7 @@
   </div>
 </section>
 
-<!-- ── ROADMAP ── -->
+<!-- â”€â”€ ROADMAP â”€â”€ -->
 <section id="roadmap" class="roadmap">
   <div class="container">
     <div class="reveal">
@@ -464,44 +464,44 @@
     <div class="timeline reveal">
       <div class="tl-item">
         <div class="tl-left">
-          <div class="tl-dot done">✓</div>
+          <div class="tl-dot done">âœ“</div>
           <div class="tl-line"></div>
         </div>
         <div class="tl-content">
-          <div class="tl-phase">Phase 1 — Complete</div>
+          <div class="tl-phase">Phase 1 â€” Complete</div>
           <div class="tl-title">Testnet Launch</div>
           <div class="tl-desc">Deployed TempoSwap on Tempo Testnet with full DEX functionality, liquidity pools, and the points system.</div>
           <div class="tl-tags">
-            <span class="tl-tag done">Swap ✓</span>
-            <span class="tl-tag done">Earn ✓</span>
-            <span class="tl-tag done">Limit Orders ✓</span>
-            <span class="tl-tag done">Points ✓</span>
+            <span class="tl-tag done">Swap âœ“</span>
+            <span class="tl-tag done">Earn âœ“</span>
+            <span class="tl-tag done">Limit Orders âœ“</span>
+            <span class="tl-tag done">Points âœ“</span>
           </div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-left">
-          <div class="tl-dot done">✓</div>
+          <div class="tl-dot done">âœ“</div>
           <div class="tl-line"></div>
         </div>
         <div class="tl-content">
-          <div class="tl-phase">Phase 2 — Complete</div>
+          <div class="tl-phase">Phase 2 â€” Complete</div>
           <div class="tl-title">Twitter OAuth & Referrals</div>
           <div class="tl-desc">Real Twitter verification via OAuth 2.0, anti-sybil referral system, leaderboard, and platform fee collection.</div>
           <div class="tl-tags">
-            <span class="tl-tag done">Twitter OAuth ✓</span>
-            <span class="tl-tag done">Referrals ✓</span>
-            <span class="tl-tag done">Leaderboard ✓</span>
+            <span class="tl-tag done">Twitter OAuth âœ“</span>
+            <span class="tl-tag done">Referrals âœ“</span>
+            <span class="tl-tag done">Leaderboard âœ“</span>
           </div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-left">
-          <div class="tl-dot active">→</div>
+          <div class="tl-dot active">â†’</div>
           <div class="tl-line"></div>
         </div>
         <div class="tl-content">
-          <div class="tl-phase">Phase 3 — In Progress</div>
+          <div class="tl-phase">Phase 3 â€” In Progress</div>
           <div class="tl-title">Community Growth</div>
           <div class="tl-desc">Growing the user base, community building, marketing campaigns, and preparing for mainnet launch.</div>
           <div class="tl-tags">
@@ -517,7 +517,7 @@
           <div class="tl-line"></div>
         </div>
         <div class="tl-content">
-          <div class="tl-phase">Phase 4 — Planned</div>
+          <div class="tl-phase">Phase 4 â€” Planned</div>
           <div class="tl-title">Mainnet Launch</div>
           <div class="tl-desc">Deploy TempoSwap on Tempo Mainnet with real assets. Bridge integration, advanced order types, and mobile app.</div>
           <div class="tl-tags">
@@ -532,11 +532,11 @@
           <div class="tl-dot soon">5</div>
         </div>
         <div class="tl-content">
-          <div class="tl-phase">Phase 5 — Future</div>
+          <div class="tl-phase">Phase 5 â€” Future</div>
           <div class="tl-title">Token Generation Event (TGE)</div>
-          <div class="tl-desc">$TEMPO token launch. All TEMPO Points from testnet activity convert to real tokens. Governance, staking, and ecosystem fund deployment.</div>
+          <div class="tl-desc">$TSWAP token launch. All TSWAP Points from testnet activity convert to real tokens. Governance, staking, and ecosystem fund deployment.</div>
           <div class="tl-tags">
-            <span class="tl-tag">$TEMPO Token</span>
+            <span class="tl-tag">$TSWAP token</span>
             <span class="tl-tag">Governance</span>
             <span class="tl-tag">Staking</span>
           </div>
@@ -546,12 +546,12 @@
   </div>
 </section>
 
-<!-- ── Tokenomics ── -->
+<!-- â”€â”€ Tokenomics â”€â”€ -->
 <section id="tokenomics">
   <div class="container">
     <div class="reveal">
       <div class="section-tag">Tokenomics</div>
-      <h2 class="section-title">$TEMPO Token Allocation</h2>
+      <h2 class="section-title">$TSWAP token Allocation</h2>
       <p class="section-sub">Designed for long-term sustainability with strong community rewards for early participants.</p>
     </div>
     <div class="tknm-grid reveal">
@@ -562,7 +562,7 @@
             <circle cx="100" cy="100" r="80" fill="none" stroke="#ff007a" stroke-width="36" stroke-dasharray="176 326" stroke-dashoffset="-251" transform="rotate(-90 100 100)" opacity="0.8"/>
             <circle cx="100" cy="100" r="80" fill="none" stroke="#06b6d4" stroke-width="36" stroke-dasharray="101 401" stroke-dashoffset="-427" transform="rotate(-90 100 100)" opacity="0.8"/>
             <circle cx="100" cy="100" r="80" fill="none" stroke="#f59e0b" stroke-width="36" stroke-dasharray="75 427" stroke-dashoffset="-528" transform="rotate(-90 100 100)" opacity="0.8"/>
-            <text x="100" y="95" text-anchor="middle" fill="white" font-size="20" font-weight="800">$TEMPO</text>
+            <text x="100" y="95" text-anchor="middle" fill="white" font-size="20" font-weight="800">$TSWAP</text>
             <text x="100" y="115" text-anchor="middle" fill="#94a3b8" font-size="11">TGE at Mainnet</text>
           </svg>
         </div>
@@ -594,14 +594,14 @@
           <div class="tknm-pct" style="color:#6ee7b7">4%</div>
         </div>
         <div class="points-callout" style="margin-top:20px">
-          40% of all $TEMPO tokens go to testnet users. The more TEMPO Points you earn now → the bigger your allocation at TGE.
+          40% of all $TSWAP tokens go to testnet users. The more TSWAP Points you earn now â†’ the bigger your allocation at TGE.
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── SECURITY ── -->
+<!-- â”€â”€ SECURITY â”€â”€ -->
 <section style="background:var(--bg2);padding:80px 24px;">
   <div class="container">
     <div class="reveal" style="text-align:center;margin-bottom:56px">
@@ -610,17 +610,17 @@
     </div>
     <div class="security-grid reveal">
       <div class="sec-card">
-        <div class="sec-icon">🔒</div>
+        <div class="sec-icon">ðŸ”’</div>
         <h3>Enshrined DEX</h3>
-        <p>TempoSwap uses the native enshrined DEX contract predeployed by Tempo Network — not a copy, not a fork. Maximum security by design.</p>
+        <p>TempoSwap uses the native enshrined DEX contract predeployed by Tempo Network â€” not a copy, not a fork. Maximum security by design.</p>
       </div>
       <div class="sec-card">
-        <div class="sec-icon">📜</div>
+        <div class="sec-icon">ðŸ“œ</div>
         <h3>Open Source</h3>
         <p>All frontend code is open source on GitHub. Verify every line of logic yourself. No hidden fees, no rug vectors.</p>
       </div>
       <div class="sec-card">
-        <div class="sec-icon">🛡️</div>
+        <div class="sec-icon">ðŸ›¡ï¸</div>
         <h3>Non-Custodial</h3>
         <p>TempoSwap never holds your funds. All trades go directly through the on-chain orderbook. You keep your keys at all times.</p>
       </div>
@@ -628,7 +628,7 @@
   </div>
 </section>
 
-<!-- ── FAQ ── -->
+<!-- â”€â”€ FAQ â”€â”€ -->
 <section id="faq">
   <div class="container">
     <div class="reveal" style="text-align:center">
@@ -638,15 +638,15 @@
     <div class="faq-list reveal">
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">What is TempoSwap? <div class="faq-icon">+</div></div>
-        <div class="faq-a"><div class="faq-a-inner">TempoSwap is a decentralized exchange built natively on Tempo Network. It uses the enshrined DEX contract to provide token swapping, limit orders, and yield earning — with a TEMPO Points system that rewards early users with future token allocations.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">TempoSwap is a decentralized exchange built natively on Tempo Network. It uses the enshrined DEX contract to provide token swapping, limit orders, and yield earning â€” with a TSWAP Points system that rewards early users with future token allocations.</div></div>
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">How do I get testnet tokens? <div class="faq-icon">+</div></div>
-        <div class="faq-a"><div class="faq-a-inner">Go to the Tempo Network faucet and request free testnet tokens (AUSD, BUSD, TUSD). You get 1 million tokens per request — more than enough to test all features. Gas costs are zero on testnet.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Go to the Tempo Network faucet and request free testnet tokens (AUSD, BUSD, TUSD). You get 1 million tokens per request â€” more than enough to test all features. Gas costs are zero on testnet.</div></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">What are TEMPO Points and what can I do with them? <div class="faq-icon">+</div></div>
-        <div class="faq-a"><div class="faq-a-inner">TEMPO Points are earned by using TempoSwap — swaps, orders, deposits, daily logins, and referrals all earn points. When $TEMPO token launches at TGE, your points will determine your token allocation. 40% of all tokens go to the community.</div></div>
+        <div class="faq-q" onclick="toggleFaq(this)">What are TSWAP Points and what can I do with them? <div class="faq-icon">+</div></div>
+        <div class="faq-a"><div class="faq-a-inner">TSWAP Points are earned by using TempoSwap â€” swaps, orders, deposits, daily logins, and referrals all earn points. When $TSWAP token launches at TGE, your points will determine your token allocation. 40% of all tokens go to the community.</div></div>
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">Why do I need to connect my Twitter? <div class="faq-icon">+</div></div>
@@ -654,7 +654,7 @@
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">Is TempoSwap safe to use? <div class="faq-icon">+</div></div>
-        <div class="faq-a"><div class="faq-a-inner">TempoSwap is non-custodial — we never hold your funds. All swaps go directly through Tempo Network's enshrined DEX contract. The frontend is open source and verifiable. On testnet, only test tokens are used so there is no real financial risk.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">TempoSwap is non-custodial â€” we never hold your funds. All swaps go directly through Tempo Network's enshrined DEX contract. The frontend is open source and verifiable. On testnet, only test tokens are used so there is no real financial risk.</div></div>
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">When is mainnet and TGE? <div class="faq-icon">+</div></div>
@@ -664,19 +664,19 @@
   </div>
 </section>
 
-<!-- ── CTA ── -->
+<!-- â”€â”€ CTA â”€â”€ -->
 <section class="cta-section">
   <div class="reveal">
-    <h2>Start earning TEMPO Points <span class="grad">today.</span></h2>
+    <h2>Start earning TSWAP Points <span class="grad">today.</span></h2>
     <p>The testnet is live. Gas is free. Your position in the protocol starts now.</p>
     <div class="hero-btns" style="justify-content:center">
-      <a href="https://tempo-dex.vercel.app" class="btn-primary">Launch TempoSwap →</a>
+      <a href="https://tempo-dex.vercel.app" class="btn-primary">Launch TempoSwap â†’</a>
       <a href="https://x.com/bdggts" class="btn-ghost">Follow on X</a>
     </div>
   </div>
 </section>
 
-<!-- ── FOOTER ── -->
+<!-- â”€â”€ FOOTER â”€â”€ -->
 <footer>
   <div class="footer-inner">
     <div class="footer-top">
@@ -708,11 +708,11 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="footer-copy">© 2026 TempoSwap. Built on Tempo Network.</div>
+      <div class="footer-copy">Â© 2026 TempoSwap. Built on Tempo Network.</div>
       <div class="footer-socials">
-        <a href="https://x.com/bdggts" class="social-btn" title="Twitter">𝕏</a>
-        <a href="https://github.com/bdggts" class="social-btn" title="GitHub">⌥</a>
-        <a href="https://tempo-dex.vercel.app" class="social-btn" title="App">↗</a>
+        <a href="https://x.com/bdggts" class="social-btn" title="Twitter">ð•</a>
+        <a href="https://github.com/bdggts" class="social-btn" title="GitHub">âŒ¥</a>
+        <a href="https://tempo-dex.vercel.app" class="social-btn" title="App">â†—</a>
       </div>
     </div>
   </div>
@@ -764,3 +764,4 @@
 </script>
 </body>
 </html>
+
